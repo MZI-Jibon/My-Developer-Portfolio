@@ -5,10 +5,13 @@ body {
 h1 {
   font-size: 50px;
 }
-.name {
+h2{
+    font-size: 40px;
+}
+.orange {
   color: orange;
 }
-section {
+.flex-container {
   display: flex;
   margin-bottom: 150px;
 }
@@ -49,3 +52,30 @@ section {
     width: 65%;
   }
  
+.exp{
+    background-image: url(../images/bg3.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+}  
+.half-width1{
+ width: 40%;
+ padding: 2%;
+ margin: 0 5%;
+ box-shadow: 10px 10px 40px gray;
+ border-left: 7px solid;
+ border-image: linear-gradient(#f813f8,#133efd) ;
+ border-image-slice: 1;
+}
+.half-width2{
+ width: 40%;
+ padding: 2%;
+ margin: 0 5%;
+ box-shadow: 10px 10px 40px gray;
+ border-left: 7px solid;
+ border-image: linear-gradient(yellow,tomato) ;
+ border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+}
